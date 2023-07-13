@@ -17,34 +17,37 @@ p, h1, h2, h3 {
   line-height: 125%;
 }
 
-del {
-    text-decoration: none;
-    position: relative;
-}
-del:after {
-    content: ' ';
-    font-size: inherit;
-    display: block;
-    position: absolute;
-    right: 0;
-    left: 0;
-    top: 40%;
-    bottom: 40%;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-}
-
 .footer {
     color: #AE301F;
 		text-decoration: none;
 	}
 
+a {
+  color: #6FB611;
+  text-decoration: none;
+}
+
 .warn {
-    color: #ff0000;
+  color: #ff0000;
+  text-decoration: none;
+}
+
+.warnurl {
+  color: #AE301F;
+  text-decoration: none;
+}
+
+.disc {
+  color: #7289DA;
+  text-decoration: none;
+}
+
+.vincells {
+		color: #AE301F;
 		text-decoration: none;
 	}
 
-a {
+.credits {
 		color: AE301F;
 		text-decoration: none;
 	}
@@ -95,28 +98,21 @@ a {
 <div title="RexiMemo! Logo" onContextMenu="return false;" ALIGN="center"><img src="../assets/rexilogolarge.png" width="443px"></div><br>
 
 <div class="topnav">
-	<a href="#">Home</a>
+	<a href="../home/">Home</a>
 	<a href="../connect/">How to Connect</a>
 	<a class="discord" href="../discord/">Discord</a>
-	<a href="../credits/">Credits</a>
+	<a href="#">Credits</a>
   </div> 
 <br>
-<div ALIGN="center"><h1><u>Welcome to RexiMemo!</u></h1></div>
+<div class="warn" ALIGN="center"><h1><u>DO NOT CONNECT WITH AN EMULATOR!</u></h1></div>
 <br>
-<div title="RexiMemo! Main Menu" ALIGN="center"><img onContextMenu="return false;" src="../assets/menuscreenshot.png" width="50%"></div>
-<br>
-<div ALIGN="left"><h2>What is RexiMemo?</h2></div>
-<div ALIGN="left"><P>RexiMemo is a reboot of the (now closed) service Flipnote Hatena for Flipnote Studio on the Nintendo DSi!</P></div>
-<br>
-<div ALIGN="right"><h2>How do I connect to RexiMemo?</h2></div>
-<div ALIGN="right"><P>You can connect to RexiMemo by follwing the guide located in the <a href="../connect/">How to Connect</a> area of the site.</P></div>
-<br>
-<div ALIGN="left"><h2>What can I use to access RexiMemo?</h2></div>
-<div ALIGN="left"><P>RexiMemo can be accessed via any console capable of running Nintendo DSiWare (Nintendo DSi, Nintendo DSi XL, Nintendo 3DS, New Nintendo 3DS etc.) and <del>via the melonDS emulator using a Nintendo DSi NAND & firmware dump.</del><br><a href="../emulation/" class="warn"><i>DO NOT CONNECT TO REXIMEMO VIA ANY EMULATOR. Click here to learn more.</i></a></P></div>
-
+<div class="warn" ALIGN="center"><h2>Due to the nature of how RexiMemo! uses the <a target="_blank" href="https://www.sudomemo.net/">Sudomemo</a> DNS, any user who connects to RexiMemo! via an emulator (even with a DSi firmware + NAND dump) will have their IP banned from Sudomemo. This is because connecting to Sudomemo via an emulator is against <a target="_blank" href="https://flipnot.es/terms">their Terms of Use</a>. I apologise for making the mistake of stating that it is safe to connect to RexiMemo! safely via an emulator. Anybody who has been banned from Sudomemo due to my mistake should join the <a class="disc" target="_blank" href="https://discord.gg/sudomemo">Sudomemo Discord Server</a> and speak to a Sudomemo staff member immediately.</h2>
+<br></div>
+<br><br>
 <br><br>
 <br><br>
 <div ALIGN="center" class="footer">i don't believe in footers</div>
+<div ALIGN="center" class="footer">RexiMemo! is not affiliated with Sudomemo in any way.</div>
 </DIV>
 
 
